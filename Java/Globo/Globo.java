@@ -16,6 +16,7 @@ class Globo{
  }
 
  public void mostrar (Graphics g) {
+ g.setColor(Color.blue);
  g.drawOval (xCoord, yCoord, diametro, diametro);
  }
  
